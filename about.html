@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>About Us</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#main_menu">
+    <!-- Navigation -->
+    <nav id="main-menu" class="navbar navbar-expand-md bg-black fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="./images/Logo2.JPG" alt="Luntian Logo" width="150" />
+        </a>
+
+        <button
+          class="navbar-toggler bg-green"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a href="index.html" class="nav-link text-green">Home</a></li>
+            <li>
+              <a href="#cover" class="nav-link text-green">About Us</a>
+            </li>
+
+            <li class="dropdown text-green">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle text-green"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Products</a
+              >
+              <ul class="dropdown-menu bg-black">
+                <li>
+                  <a href="products.html" class="dropdown-item text-green"
+                    >Shirts</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#contactus" class="nav-link text-green">Contact Us</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="btn nav-link text-green"
+                data-bs-toggle="modal"
+                data-bs-target="#login"
+                >Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="coverphoto" id="cover"></div>
+    </section>
+    <section class="bg-black text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Mission</h2>
+            <p class="pt-3">
+              "At Luntian, our mission is to seamlessly integrate cannabis
+              culture into the world of fashion, creating a line of clothing
+              that speaks to the heart of cannabis enthusiasts while celebrating
+              individuality and style. We strive to design clothing that
+              empowers self-expression, fosters inclusivity, and sparks
+              conversations around the positive aspects of cannabis. Through our
+              commitment to quality, sustainability, and innovation, we aim to
+              redefine cannabis-inspired fashion and leave a lasting impact on
+              the fashion industry and the cannabis community."
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h2>Vision</h2>
+            <p class="pt-3">
+              "To Pioneer a Paradigm-Shift in Fashion, Blending Cannabis Culture
+              and Style" <br />
+              <br />
+              At Luntian, we envision a world where fashion transcends
+              boundaries and resonates with the spirit of cannabis enthusiasts
+              and fashion-forward individuals alike. Our vision is to lead a
+              transformative movement in the fashion industry by seamlessly
+              infusing the essence of cannabis culture into every fabric,
+              stitch, and design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More About Us -->
+    <section id="moreaboutus" class="p-5 bg-black">
+      <div class="container">
+        <h2 class="text-center mb-4">More About Us</h2>
+
+        <div class="accordion accordion-flush" id="moreabout-us">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-black text-green"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#1stmoreaboutus"
+              >
+                Our Journey
+              </button>
+            </h3>
+            <div
+              id="1stmoreaboutus"
+              class="accordion-collapse collapse"
+              data-bs-parent="#moreabout-us"
+            >
+              <div class="accordion-body text-green bg-black">
+                Luntian was born out of a passion for both fashion and cannabis.
+                Our founder, Sheen Suba, a visionary with a deep appreciation
+                for the cannabis plant and a background in the fashion industry,
+                saw an opportunity to blend these two worlds in a unique and
+                stylish way. The result is a brand that captures the essence of
+                cannabis culture while delivering top-notch quality and chic
+                designs.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item2 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-black text-green"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#2ndmoreaboutus"
+              >
+                Cannabis-Inspired Collections
+              </button>
+            </h3>
+            <div
+              id="2ndmoreaboutus"
+              class="accordion-collapse collapse"
+              data-bs-parent="#moreabout-us"
+            >
+              <div class="accordion-body bg-black text-green">
+                Our clothing collections are carefully curated to embody the
+                various facets of cannabis culture. Whether you're a seasoned
+                cannabis enthusiast or simply appreciate the aesthetic of the
+                plant, we have something for everyone.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item3 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-black text-green"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#3rdmoreaboutus"
+              >
+                Quality and Sustainability
+              </button>
+            </h3>
+            <div
+              id="3rdmoreaboutus"
+              class="accordion-collapse collapse"
+              data-bs-parent="#moreabout-us"
+            >
+              <div class="accordion-body bg-black text-green">
+                At Luntian, we prioritize quality and sustainability. Our
+                clothing is crafted from the finest materials, ensuring comfort
+                and durability. We are committed to eco-friendly practices and
+                strive to reduce our environmental footprint. From sourcing
+                materials responsibly to using ethical manufacturing processes,
+                we are dedicated to making fashion that doesn't cost the Earth.
+              </div>
+            </div>
+          </div>
+
+          <!-- item4 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-black text-green"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#4thmoreaboutus"
+              >
+                Join the Luntian Community
+              </button>
+            </h3>
+            <div
+              id="4thmoreaboutus"
+              class="accordion-collapse collapse"
+              data-bs-parent="#moreabout-us"
+            >
+              <div class="accordion-body bg-black text-green">
+                When you shop with Luntian, you're not just buying clothing;
+                you're becoming part of a vibrant and inclusive community that
+                celebrates individuality, self-expression, and the love for
+                cannabis culture. We invite you to connect with us on social
+                media, share your style, and join the conversation. Elevate your
+                fashion game and embrace the cannabis lifestyle with Luntian.
+              </div>
+            </div>
+          </div>
+
+          <!-- item5 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-black text-green"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#5thmoreaboutus"
+              >
+                Customer Satisfaction Guaranteed
+              </button>
+            </h3>
+            <div
+              id="5thmoreaboutus"
+              class="accordion-collapse collapse"
+              data-bs-parent="#moreabout-us"
+            >
+              <div class="accordion-body bg-black text-green">
+                Your satisfaction is our top priority. We stand behind the
+                quality of our products, and our customer service team is always
+                ready to assist you with any questions or concerns. When you
+                wear Luntian, you're not just wearing clothing; you're making a
+                statement about your love for cannabis and your passion for
+                fashion. <br />
+                <br />
+
+                Thank you for choosing Luntian, where cannabis meets couture. We
+                look forward to being a part of your fashion journey and helping
+                you express your unique style in the most elevated way possible.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Creator Section -->
+
+    <section class="bg-black text-center">
+      <div class="container">
+        <h2 class="mb-3">Our BUD</h2>
+        <div>
+          <img
+            src="./images/CEO.jpg"
+            alt="Testimonialimage"
+            class="rounded-circle"
+            style="width: 200px"
+          />
+          <h3>Sheen Irving Suba</h3>
+          <h4 class="lead">CEO</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contactus" class="pt-5 text-center">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item bg-black text-green">
+                <span class="fw-bold">Main Location:</span> 129 Adelfa St. San
+                Antonio Village, Antipolo City
+              </li>
+              <li class="list-group-item bg-black text-green">
+                <span class="fw-bold">Phone:</span> (994) 8553133
+              </li>
+
+              <li class="list-group-item bg-black text-green mb-4">
+                <span class="fw-bold">Email:</span> luntian420clothing@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md p-5">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="login" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content bg-black">
+          <div class="modal-header">
+            <img src="./images/Logo2.JPG" alt="Luntian Logo" width="150" />
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Login to Luntian</p>
+            <form action="process.php">
+              <div class="mb-3">
+                <label for="username/email" class="col-form-label"
+                  >Username/Email</label
+                >
+                <input type="text" class="form-control" id="username/email" />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="col-form-label">Password</label>
+                <input type="password" class="form-control" id="last_name" />
+              </div>
+            </form>
+          </div>
+          <button
+            type="submit"
+            class="btn text-black bg-green align-self-center"
+            id="loginbtn"
+          >
+            Login
+          </button>
+          <div class="align-self-center mt-3" id="forgotpw">
+            <a href="#">Forgot Password?</a><br />
+          </div>
+          <div class="align-self-center mt-3" id="signup">
+            <p>Don't have an account? <a href="#">Sign Up Here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-black pt-3 text-center border-top border-success-subtle">
+      <div class="container">
+        <div>
+          <a href="https://www.facebook.com/luntian420/"
+            ><i class="bi bi-facebook text-green"></i
+          ></a>
+          <a href="#"><i class="bi bi-twitter text-green"></i></a>
+          <a href="#"><i class="bi bi-instagram text-green"></i></a>
+        </div>
+        <div>
+          <p>Copyright &copy; 2023 - Luntian</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

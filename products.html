@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Products</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="main-menu" class="navbar navbar-expand-md bg-black fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="./images/Logo2.JPG" alt="Luntian Logo" width="150" />
+        </a>
+
+        <button
+          class="navbar-toggler bg-green"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a href="index.html" class="nav-link text-green">Home</a></li>
+            <li>
+              <a href="about.html" class="nav-link text-green">About Us</a>
+            </li>
+
+            <li class="dropdown text-green">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle text-green"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Products</a
+              >
+              <ul class="dropdown-menu bg-black">
+                <li>
+                  <a href="products.html" class="dropdown-item text-green"
+                    >Shirts</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#contactus" class="nav-link text-green">Contact Us</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="btn nav-link text-green"
+                data-bs-toggle="modal"
+                data-bs-target="#login"
+                >Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="coverphoto" id="cover"></div>
+    </section>
+
+    <!-- <section class="navbar navbar-expand-md">
+      <div class="container">
+        <div>
+          <button
+            class="navbar-toggler bg-green"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#filterMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 pt-2">
+            <div class="navbar navbar-expand-md">
+              <button
+                class="navbar-toggler bg-green"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#filterMenu"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div id="filterMenu" class="collapse navbar-collapse">
+              <h2>Filter Selection</h2>
+              <ul class="pt-2">
+                <form action="/action_page.php">
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="check1"
+                      name="option1"
+                      value="something"
+                    />
+                    <label class="form-check-label">Hot Selling</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="check2"
+                      name="option2"
+                      value="something"
+                    />
+                    <label class="form-check-label">New Shirts</label>
+                  </div>
+                </form>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-9">
+            <div class="row">
+              <div class="col-12">
+                <aside class="bg-black text-center" id="featuredproducts">
+                  <h2>Choose Your Poison</h2>
+                  <div class="row pt-3">
+                    <!-- First Card -->
+                    <div href="#" class="col-md-4 col-sm-12" id="bestselling">
+                      <div
+                        class="card border border-2 border-success bg-black text-green"
+                      >
+                        <img
+                          src="./images/AstroBlack.jpg"
+                          alt="AstroBlack"
+                          class="card-img-top"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Astro Chimp</h4>
+                          <p class="card-text">
+                            Available Colors: White & Black <br />
+                            Available Sizes: S / M / L / XL / XXL <br />
+                            Price: 700php (Any size)
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <a href="#" class="btn bg-black text-green"
+                              ><i class="bi bi-cart"></i>Add to Cart</a
+                            >
+                            <div class="pt-2">
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Second Card -->
+                    <div class="col-md-4 col-sm-12">
+                      <div
+                        class="card border border-2 border-success bg-black text-green"
+                      >
+                        <img
+                          src="./images/TokeWhite.jpg"
+                          alt="AstroBlack"
+                          class="card-img-top"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Enjoy A Toke</h4>
+                          <p class="card-text">
+                            Available Colors: White & Black <br />
+                            Available Sizes: S / M / L / XL / XXL <br />
+                            Price: 700php (Any size)
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <a href="#" class="btn bg-black text-green"
+                              ><i class="bi bi-cart"></i>Add to Cart</a
+                            >
+                            <div class="pt-2">
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Third Card -->
+                    <div class="col-md-4 col-sm-12">
+                      <div
+                        class="card border border-2 border-success bg-black text-green"
+                      >
+                        <img
+                          src="./images/KushesBlack.jpg"
+                          alt="AstroBlack"
+                          class="card-img-top"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Kushes&Cream</h4>
+                          <p class="card-text">
+                            Available Colors: White & Black <br />
+                            Available Sizes: S / M / L / XL / XXL <br />
+                            Price: 700php (Any size)
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <a href="#" class="btn bg-black text-green"
+                              ><i class="bi bi-cart"></i>Add to Cart</a
+                            >
+                            <div class="pt-2">
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Next Row -->
+
+                  <div class="row pt-3">
+                    <!-- First Card -->
+                    <div class="col-md-4">
+                      <div
+                        class="card border border-2 border-success bg-black text-green"
+                      >
+                        <img
+                          src="./images/ChokingWhite.jpg"
+                          alt="AstroBlack"
+                          class="card-img-top"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">ChokeOnGrass</h4>
+                          <p class="card-text">
+                            Available Colors: White & Black <br />
+                            Available Sizes: S / M / L / XL / XXL <br />
+                            Price: 700php (Any size)
+                          </p>
+                          <div
+                            class="d-flex justify-content-between"
+                            id="addtocart"
+                          >
+                            <a href="#" class="btn bg-black text-green"
+                              ><i class="bi bi-cart"></i>Add to Cart</a
+                            >
+                            <div class="pt-2">
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Second Card -->
+                    <div class="col-md-4">
+                      <div
+                        class="card border border-2 border-success bg-black text-green"
+                      >
+                        <img
+                          src="./images/SpaceGhostBlack.png"
+                          alt="AstroBlack"
+                          class="card-img-top"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Space Ghost</h4>
+                          <p class="card-text">
+                            Available Colors: White & Black <br />
+                            Available Sizes: S / M / L / XL / XXL <br />
+                            Price: 700php (Any size)
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <a href="#" class="btn bg-black text-green"
+                              ><i class="bi bi-cart"></i>Add to Cart</a
+                            >
+                            <div class="pt-2">
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Third Card -->
+                    <div class="col-md-4">
+                      <div
+                        class="card border border-2 border-success bg-black text-green"
+                      >
+                        <img
+                          src="./images/EdibleWhite.jpg"
+                          alt="AstroBlack"
+                          class="card-img-top"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Edible Bites</h4>
+                          <p class="card-text">
+                            Available Colors: White & Black <br />
+                            Available Sizes: S / M / L / XL / XXL <br />
+                            Price: 700php (Any size)
+                          </p>
+                          <div class="d-flex justify-content-between">
+                            <a href="#" class="btn bg-black text-green"
+                              ><i class="bi bi-cart"></i>Add to Cart</a
+                            >
+                            <div class="pt-2">
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                              <i class="fa-solid fa-cannabis"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black pt-3 text-center border-top border-success-subtle">
+      <div class="container">
+        <div>
+          <a href="https://www.facebook.com/luntian420/"
+            ><i class="bi bi-facebook text-green"></i
+          ></a>
+          <a href="#"><i class="bi bi-twitter text-green"></i></a>
+          <a href="#"><i class="bi bi-instagram text-green"></i></a>
+        </div>
+        <div>
+          <p>Copyright &copy; 2023 - Luntian</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

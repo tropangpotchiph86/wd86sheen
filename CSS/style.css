@@ -1,0 +1,139 @@
+body {
+  color: green;
+  background: black;
+}
+
+:root {
+  --bs-border-color: green;
+  --bs-body-color: green;
+  --bs-body-bg: black;
+}
+
+.text-green {
+  color: green;
+}
+.bg-green {
+  background: green;
+}
+
+#main-menu #mainMenu a:focus {
+  color: green;
+}
+#main-menu #mainMenu a:hover {
+  color: black;
+  background: green;
+  border-radius: 5px;
+}
+
+.btnreadmore a:hover {
+  background: rgba(0, 240, 72, 0.966);
+}
+
+#loginbtn:hover {
+  background: rgba(0, 240, 72, 0.966);
+}
+
+.btn:hover {
+  color: rgba(0, 240, 72, 0.966);
+}
+
+#loginbtn {
+  width: 20%;
+}
+
+#signup a,
+#forgotpw a {
+  color: green;
+}
+#signup a:hover,
+#forgotpw a:hover {
+  color: rgba(0, 240, 72, 0.966);
+}
+
+.btn-close {
+  --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(0, 128, 0);
+}
+
+.modal-header .btn-close {
+  --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23008000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+}
+#mainMenu .nav-link.active {
+  background: green;
+  color: #333;
+  border-radius: 5px;
+}
+
+h2 {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+}
+
+/* #map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+} */
+
+.coverphoto {
+  background: url(../images/Coverphoto.jpg) no-repeat center center/cover;
+  height: 30vh;
+}
+
+.accordion {
+  --bs-accordion-active-color: green;
+  --bs-accordion-active-bg: green;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 240, 72, 0.966);
+  --bs-accordion-color: green;
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23008000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23008000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.form-control:focus {
+  border-color: green;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 240, 72, 0.966);
+}
+
+.form-control::file-selector-button {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+}
+
+.form-control {
+  background-color: var(--bs-body-bg);
+}
+
+#username-email {
+  background: black;
+}
+
+.card:hover {
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 240, 72, 0.966);
+}
+
+.modal-body form input:focus {
+  background-color: black;
+}
+
+@media (max-width: 767px) {
+  #featuredproducts .card {
+    margin-bottom: 20px;
+  }
+  #newproducts .card {
+    margin-bottom: 20px;
+  }
+}
+
+#mainMenu li {
+  text-align: center;
+}
+
+#aboutus {
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  #aboutusimage {
+    margin-top: 20px;
+  }
+}
